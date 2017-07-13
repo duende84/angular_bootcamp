@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'test';
+  title = 'My Angular First Application';
+  author = 'Andres Diaz';
+  count = 0;
+  imgSource = './../favicon.ico';
+  enableButton = true;
 }
